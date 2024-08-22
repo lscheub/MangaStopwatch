@@ -12,3 +12,6 @@ When running the scipt you will have a gui with a dropdown menu looking like thi
 ![Example](https://github.com/user-attachments/assets/7c5924d2-1d40-4bad-ba04-37ac00859f4c)
 
 The icon in the top left indicates that the time is running. You can change and use the keybinds defined in the script to start, pause or end the stopwatch or you can use the buttons. The keybinds also work when the stopwatch is not in focus. The Textbox at the bottom serves as a log. You dont have to immeadiately choos the item you want to track the time for, you only have to choose one before ending the stopwatch (always use the end keybind or the end button, do not just close it). After ending the stopwatch for the first time, it will save the selected item to track and automatically select it on the next startup. The tracked times can be found in the Stopwatch.json.
+
+Before running the script you may or may not need to run 
+pip install -r requirements.txt
