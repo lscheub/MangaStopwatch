@@ -86,7 +86,7 @@ with open(mostRecentPath, "r", encoding='utf-8') as f:
 #Read Reading Material names from Folders
 options = []
 for folder in folders:
-    options = os.listdir(folder)
+    options += os.listdir(folder)
 
 print(folders)
 #Ignore some folders
@@ -137,4 +137,5 @@ text_widget.insert(tk.END, f"Press {continueKeybind} to resume\n")
 text_widget.insert(tk.END, f"Press {pauseKeybind} to pause\n")
 text_widget.insert(tk.END, f"Press {exitKeybind} to exit\n")
 text_widget.insert(tk.END, f"Currently Selected: {lastRead}\n")
+pause_stopwatch()
 root.mainloop()
