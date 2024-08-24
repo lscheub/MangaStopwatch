@@ -1,5 +1,5 @@
-# ReadingStopwatch
-A time tracker for tracking time you spend immersing in whatever. My motivation for this was that i wanted to read multiple manga in a language i was learning and wanted to track how much time i spent reading the individual manga. Here i track the time for the different manga and also the time for different days as well as the total time.
+# Manga Stopwatch
+A time tracker for tracking time you spend immersing in Manga (or whatever else you want to track). My motivation for this was that i wanted to read multiple manga in a language i was learning and wanted to track how much time i spent reading the individual manga. Here i track the time for the different manga and also the time for different days as well as the total time. It works best if you have all your manga in one folder (or at least in few folders)
 
 When editing the Stopwatch.py file, you can edit the folders and ignoreFolders variables to point to the folder(s) where you store your epubs or folders containing jpegs with your manga or whatever. Just create a File named after whatever you want to track at the location where you set the folders variable. You can also have multiple folders. The ignore folders should point to some items (or leave it empty) that are in the "folders" that you want to ignore / dont want to have to see in the dropdown menu everytime.
 
